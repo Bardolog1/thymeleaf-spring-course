@@ -1,4 +1,7 @@
-Curso de Spring:
+Curso de Spring :
+https://www.udemy.com/course/spring-framework-5/
+
+Repaso thymeleaf con spring boot 
 
 Anotaciones :
 
@@ -10,5 +13,5 @@ Anotaciones :
 	-	@PostMapping("/") : igual que get mapping pero es para methodos post.
 	-	@ModelAttibute    : se usa para indicar un modelo con los atributos que se van a pasar a la vista en otro metodo distinto al que esta 							marcado con la anotación y va a ser transversal a todos los metodos del controlador y no de un solo metodo
 	-	@RequestParam(name="text") : se usa antes de un parametro de metodo para indicar que ese parametro viene en el path y se indica el 									 									nombre en caso que el parametro del metodo no tenga el mismo nombre del parametro del path, tambien se 									puede indicar el valor por defecto  e indicar tambien si es requerido
-	- @PathVariable(name="texto") : esta anotación se usa para indicar que un tramo donde va un parametro de la ruta va a ser variable y se antepone de la declaracion del parametro del metodo que va a recibir el parametro de la ruta
+	- 	@PathVariable(name="texto") : esta anotación se usa para indicar que un tramo donde va un parametro de la ruta va a ser variable y se antepone de la declaracion del parametro del metodo que va a recibir el parametro de la ruta
 	
