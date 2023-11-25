@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"  />
+<title>Enviar Parametros  por Path Variable</title>
+</head>
+<body>
+<h1 align="center">Enviar Parametros del requpor @PathVariable </h1>
+
+<div align="center">
+	<ul>
+		<li><a th:href="@{/variables/string/hola customer}">/variables/string/hola customer</a></li>
+		<li><a th:href="@{/variables/mix-params/hola customer/15}">/variables/mix-params/hola customer/15</a></li>
+		<li><a th:href="@{/variables/mix-params/} + 'hola'  + '/' + 5">/variables/mix-params/hola customer/15</a></li>
+	
+
+	</ul>
+</div>
+</body>
+</html>
